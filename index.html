@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="bg-transparant absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-teal-900 block py-6">Ibrahim</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-button-left"></span>
+                    </button>
+                    <nav id="nav-menu " class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparant lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-600">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-600">about</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-600">portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-600">clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Call" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-teal-600">contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero section -->
+    <section id="home" class="pt-36 bg-purple-300">
+        <div class="container">
+            <div class="flex flex-wrap ml-20">
+                <div class="w-full self-center px:4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-indigo-900 md:text-xl">
+                        Hello Semuanya 🤙 Nama Saya <span
+                            class="block font-bold text-slate-900 text-4xl mt-1 md:text-5xl">
+                            Ibrahim
+                        </span>
+                    </h1>
+                    <h2 class="font-medium text-slate-600 text-19 mb-5 lg:text-2xl">
+                        Programer | <span class="text-dark"> student</span>
+                    </h2>
+                    <p class="font-medium text-slate-600 mb-10 leading-relaxed">
+                        Belajar coding mudah bukan , <span class="text-slate-900 font-bold"> BUKAN!!🤧</span>
+                    </p>
+                    <a href="#"
+                        class="text-teal-50 font-semibold text-base bg-indigo-900 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
+                        Contact me
+                    </a>
+                </div>
+                <div class="relative mt-10 lg:mt-9 lg:right-0">
+                    <img src="dist/img/undraw_hacker_mind_-6-y85.svg" width="400px" height="400px" alt="nama"
+                        class="max-w-full mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of hero section -->
+
+
+    <!-- header section -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-indigo-900 text-lg mb-3">About me</h4>
+                    <h2 class="font-bold  text-zinc-700 text-3xl mb-5 max-w-md lg:text-4xl">
+                        Let's learn coding with me
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum cumque beatae modi accusantium
+                        alias tempora dolorem expedita saepe laboriosam voluptate!</p>
+
+                </div>
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-green-600 text-lg mb-3"></h4>
+                    <h2 class="font-bold text-indigo-950 text-3xl mb-5 max-w-md lg:text-4xl">You need this</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus non inventore sit atque sint,
+                        nostrum debitis veritatis cupiditate quisquam reprehenderit et neque, harum voluptas totam illum
+                        quis fugit, explicabo consequuntur.</p>
+                    <div class="flex flex-wrap">
+                        <!-- YOUTUBE -->
+                        <a href="#"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z" />
+                            </svg>
+                        </a>
+                        <!-- YOUTUBE -->
+                        <a href="#"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z" />
+                            </svg>
+                        </a>
+                        <!-- YOUTUBE -->
+                        <a href="#"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z" />
+                            </svg>
+                        </a>
+                        <!-- YOUTUBE -->
+                        <a href="#"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
+                            </svg>
+                        </a>
+                        <!-- YOUTUBE -->
+                        <a href="#"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                                clip-rule="evenodd">
+                                <path
+                                    d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end of -->
+
+
+    <!-- portofolio section -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-40">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-2xl text-indigo-900 mb-2">portofolio</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl">Dokumentasi</h2>
+                    <p class="font-medium text-md text-slate-600 md:text">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Laboriosam expedita eveniet deserunt maiores ut tempora, enim voluptate
+                        aliquam provident sit placeat, ratione doloribus pariatur in!</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="flex flex-wrap">
+            <div class="font-bold m-20 ">
+                <img src="prtfl.png" class="border-solid border-1 border-indigo-900 border rounded-xl" alt="portofolio"
+                    width="450" height="450">
+
+                <h3 class="text-bold text-xl text-indigo-900 mt-5 mb-3">
+                    Landing Page Ibrahim
+                </h3>
+                <p class="font-medium text-base text-secondary max-w-md">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. In rem laudantium saepe. Accusamus,
+                    possimus. Doloremque commodi laudantium maxime ipsum
+                    error?.</p>
+
+            </div>
+
+            <div class="font-bold m-20 ">
+                <img src="prtfl.png" class="border-solid border-1 border-indigo-900 border rounded-xl" alt="portofolio"
+                    width="450" height="450">
+
+                <h3 class="text-bold text-xl text-indigo-900 mt-5 mb-3">
+                    Landing Page Ibrahim
+                </h3>
+                <p class="font-medium text-base text-secondary max-w-md">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. In rem laudantium saepe. Accusamus,
+                    possimus. Doloremque commodi laudantium maxime ipsum
+                    error?.</p>
+
+            </div>
+
+
+
+
+
+        </div>
+        </div>
+
+        <!-- clien section -->
+        <section id="clients" class="pt-36 pb-32 bg-slate-300">
+        <div class="container mb-16">
+            <div class="w-full px-40 bg-zinc-400">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-2xl text-indigo-900 mb-2">Clients</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl">Yang Pernah Bekerja Sama
+                    </h2>
+                    <p class="font-medium text-md text-slate-800 md:text">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit.!</p>
+
+                    <div class="flex flex-wrap mt-15 justify-center">
+                        <a href="#"
+                            class="w-9 h-9 m-10 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white "><svg
+                                xmlns="" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                            </svg>
+                            <img src="dist/img/ac_milan-logo-13C9AE0998-seeklogo.com.png" alt="">
+                        </a>
+                        <a href="#"
+                            class="w-9 h-9 m-10 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white "><svg
+                                xmlns="" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                            </svg>
+                            <img src="dist/img/image-260nw-2349343055.webp" alt="">
+                        </a>
+                        <a href="#"
+                            class="w-9 h-9 m-10 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white "><svg
+                                xmlns="" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                            </svg>
+                            <img src="dist/img/manchester-united-logo-8D6C880488-seeklogo.com.png" alt="">
+                        </a>
+                        <a href="#"
+                            class="w-9 h-9 m-10 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white "><svg
+                                xmlns="" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                            </svg>
+                            <img src="dist/img/persis-solo-logo-A58D6FE4AD-seeklogo.com.png" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+         <!-- end clien section -->
+
+
+    </section>
+    <!-- contact section -->
+    <section id="Call" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-19 border-teal-600 mb-2">Contacts</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
+                    <p class="font-medium text-md text-slate-600 md:text-19">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Reiciendis, pariatur!</p>
+                </div>
+            </div>
+        </div>
+        <form action="#contacts">
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+                <!-- Nama -->
+                <div class="w-full px-4 mb-8">
+                    <label for="Name" class="text-base border-teal-600 font-bold uppercase">Nama</label>
+                    <textarea type="text" id="Name"
+                        class="w-full bg-slate-200 text-slate-900 p-3 ronded-md focus:outline-none focus-ring-teal-900 focus:ring-1 focus:border-teal-900"></textarea>
+                </div>
+                <!-- Nama -->
+                <div class="w-full px-4 mb-8">
+                    <label for="Name" class="text-base border-teal-600 font-bold uppercase">No Telp</label>
+                    <textarea type="text" id="Name"
+                        class="w-full bg-slate-200 text-slate-900 p-3 ronded-md focus:outline-none focus-ring-teal-900 focus:ring-1 focus:border-teal-900"></textarea>
+                </div>
+                <!-- Nama -->
+                <div class="w-full px-4 mb-8">
+                    <label for="Name" class="text-base border-teal-600 font-bold uppercase">Gmail</label>
+                    <textarea type="text" id="Name"
+                        class="w-full bg-slate-200 text-slate-900 p-3 ronded-md focus:outline-none focus-ring-teal-900 focus:ring-1 focus:border-teal-900 h-32"></textarea>
+                    <!-- Submit -->
+                    <div class="w-full">
+                        <br><br>
+                        <button type="submit"
+                            class=" text-base font-semibold text-white bg-teal-900 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500 h-9">Kirim</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- end section contacts -->
+    <!-- footer section -->
+    <footer class="bg-slate-900 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <!-- tengah -->
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">HK</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
+                    <p>......@Gmail.com</p>
+                    <p>Disana</p>
+                    <p>jalan ini desa itu </p>
+                    <p>solo Kab.Boyolali</p>
+                </div>
+                <!-- kanan -->
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori blog</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">Programing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">css / scss</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">Boostrap</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">Tailwind</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">media</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">youtube</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">instagram</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-teal-600 mb-3">spotify</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- YOUTUBE -->
+                    <a href="#"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z" />
+                        </svg>
+                    </a>
+                    <!-- YOUTUBE -->
+                    <a href="#"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z" />
+                        </svg>
+                    </a>
+                    <!-- YOUTUBE -->
+                    <a href="#"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z" />
+                        </svg>
+                    </a>
+                    <!-- YOUTUBE -->
+                    <a href="#"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
+                        </svg>
+                    </a>
+                    <!-- YOUTUBE -->
+                    <a href="#"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-indigo-950 text-slate-500 hover:bg-zinc-600 hover:border-teal-600 hover:text-white">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
+                        </svg>
+                    </a>
+                    <!-- text copyright -->
+                    <!-- copyright -->
+                    <p class="font-medium text-xs text-slate-500 text-center ">dibuat dengan <span
+                            class="text-red-600">❤</span>oleh <a href="#Home" class="text-primary">Ibrahim </a>with <a
+                            href="website tailwind" target="_blank" class="font-bold text-sky-500">tailwind css</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="dist/js/script.js"></script>
+
+</body>
+
+</html>
